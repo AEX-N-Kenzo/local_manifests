@@ -66,8 +66,8 @@
   <project path="system/bt" name="AEX-N-Kenzo/platform_system_bt" groups="pdk" remote="github" revision="7.x"	 />
   <remove-project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="ex" />
   <project path="frameworks/av" name="AEX-N-Kenzo/platform_frameworks_av" groups="pdk" remote="github" revision="7.x" />
-  <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ex"  />
-  <project path="packages/services/Telephony" name="AEX-N-Kenzo/platform_frameworks_opt_telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
+  <remove-project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="ex" />
+  <project path="frameworks/opt/telephony" name="AEX-N-Kenzo/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="7.x" />
   <remove-project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <project path="external/libhevc" name="AEX-N-Kenzo/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <remove-project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
