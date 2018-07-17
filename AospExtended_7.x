@@ -70,7 +70,7 @@
   <remove-project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ex" />
   <project path="frameworks/native" name="AEX-N-Kenzo/platform_frameworks_native" groups="pdk" remote="github" revision="7.x" />
   <remove-project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
-  <project path="external/bouncycastle" name="AEX-N-Kenzo/platform/external/bouncycastle" groups="pdk" remote="github" revision="cm-14.1" />
+  <project path="external/bouncycastle" name="AEX-N-Kenzo/android_external_bouncycastle" groups="pdk" remote="github" revision="cm-14.1" />
   <remove-project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/Bluetooth" name="AEX-N-Kenzo/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
 
