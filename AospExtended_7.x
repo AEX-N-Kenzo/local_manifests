@@ -11,16 +11,9 @@
 	  <!-- Add myself：Xperia X's Gpu Blobs -->
   <project name="AEX-N-Kenzo/proprietary_vendor_xiaomi" path="vendor/xiaomi" remote="github" revision="nougat" clone-depth="1" />
   <!-- Kernel -->
-	  <!-- Use Amol's -->
-  <project path="kernel/xiaomi/msm8956" name="AmolAmrit/Escrima_kernel_xiaomi_msm8956" remote="github" revision="nougat" />
+	  <!-- Use Escrima -->
+  <project path="kernel/xiaomi/msm8956" name="AEX-N-Kenzo/Escrima_kernel_xiaomi_msm8956" remote="github" revision="nougat" />
   <!-- Other -->
-  <!-- Switch audio-caf, display-caf & media-caf to los-kenzo -->
-  <remove-project path="hardware/qcom/audio-caf/msm8952" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
-  <remove-project path="hardware/qcom/display-caf/msm8952" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8952" />
-  <remove-project path="hardware/qcom/media-caf/msm8952" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8952" name="los-kenzo/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lk-7.1" />
-  <project path="hardware/qcom/display-caf/msm8952" name="los-kenzo/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lk-7.1" />
-  <project path="hardware/qcom/media-caf/msm8952" name="los-kenzo/android_hardware_qcom_media" groups="qcom" remote="github" revision="lk-7.1" />
   <!-- Amol's -->
   <remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
   <project path="packages/apps/SnapdragonCamera" name="AmolAmrit/packages_apps_SnapdragonCamera" remote="github" revision="n3" />
@@ -74,6 +67,12 @@
   <project path="external/libmpeg2" name="AEX-N-Kenzo/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
   <remove-project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/sonivox" name="AEX-N-Kenzo/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
+  <remove-project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ex" />
+  <project path="frameworks/native" name="AEX-N-Kenzo/platform_frameworks_native" groups="pdk" remote="github" revision="7.x" />
+  <remove-project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
+  <project path="external/bouncycastle" name="AEX-N-Kenzo/platform/external/bouncycastle" groups="pdk" remote="github" revision="cm-14.1" />
+  <remove-project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="packages/apps/Bluetooth" name="AEX-N-Kenzo/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
 
   <remove-project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" />
   <project path="build" name="AEX-N-Kenzo/platform_build" groups="pdk,tradefed" remote="github" revision="7.x" >
@@ -81,4 +80,3 @@
   </project>
   <!-- END -->
 </manifest>
-
