@@ -14,6 +14,13 @@
 	  <!-- Use Escrima -->
   <project path="kernel/xiaomi/msm8956" name="AEX-N-Kenzo/Escrima_kernel_xiaomi_msm8956" remote="github" revision="nougat" />
   <!-- Other -->
+  <!-- Switch audio-caf, display-caf & media-caf to los-kenzo -->
+  <remove-project path="hardware/qcom/audio-caf/msm8952" name="lineageos/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
+  <remove-project path="hardware/qcom/display-caf/msm8952" name="lineageos/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="cm-14.1-caf-8952" />
+  <remove-project path="hardware/qcom/media-caf/msm8952" name="lineageos/android_hardware_qcom_media" groups="qcom" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="los-kenzo/android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="github" revision="lk-7.1" />
+  <project path="hardware/qcom/display-caf/msm8952" name="los-kenzo/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="lk-7.1" />
+  <project path="hardware/qcom/media-caf/msm8952" name="los-kenzo/android_hardware_qcom_media" groups="qcom" remote="github" revision="lk-7.1" />
   <!-- Amol's -->
   <remove-project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aosp-jf" />
   <project path="packages/apps/SnapdragonCamera" name="AmolAmrit/packages_apps_SnapdragonCamera" remote="github" revision="n3" />
