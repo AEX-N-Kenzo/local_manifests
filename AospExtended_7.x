@@ -83,7 +83,7 @@
   <remove-project path="external/e2fsprogs" name="lineageos/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
   <project path="external/e2fsprogs" name="AEX-N-Kenzo/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
   <remove-project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-jf" />
-  <project path="system/vold" name="AEX-N-Kenzo/platform_system_vold" groups="pdk" remote="github" />
+  <project path="system/vold" name="AEX-N-Kenzo/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ex"  />
   <project path="packages/services/Telephony" name="AEX-N-Kenzo/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
   <remove-project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="ex"  />
@@ -94,7 +94,7 @@
   <project path="external/libavc" name="AEX-N-Kenzo/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
 -->
   <remove-project path="external/curl" name="platform/external/curl" />
-  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github" />
+  <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github" revision="cm-14.1" />
 
   <remove-project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" />
   <project path="build" name="AEX-N-Kenzo/platform_build" groups="pdk,tradefed" remote="github" revision="7.x" >
