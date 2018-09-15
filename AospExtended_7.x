@@ -88,6 +88,15 @@
   <project path="packages/services/Telephony" name="AEX-N-Kenzo/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
   <remove-project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="ex"  />
   <project path="packages/apps/PackageInstaller" name="AEX-N-Kenzo/platform_packages_apps_PackageInstaller" groups="pdk-fs" remote="github" revision="7.x" />
+  <remove-project path="external/neven" name="platform/external/neven" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/neven" name="AEX-N-Kenzo/android_external_neven" groups="pdk-cw-fs,pdk-fs" remote="github" revision="cm-14.1" />
+  <remove-project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="ex" />
+  <project path="packages/providers/DownloadProvider" name="AEX-N-Kenzo/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
+  <remove-project path="libcore" name="platform_libcore" groups="pdk"  remote="ex"  />
+  <project path="libcore" name="AEX-N-Kenzo/platform_libcore" groups="pdk" remote="github" revision="7.x" />
+  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/libxml2" name="AEX-N-Kenzo/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="cm-14.1" />
+
       <!-- Use LineageOS's -->
 <!--
   <remove-project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
