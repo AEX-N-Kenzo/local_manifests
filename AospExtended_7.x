@@ -61,6 +61,9 @@
       <!-- Modify myself：Translation Improvement -->
   <remove-project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="ex" />
   <project path="packages/apps/Settings" name="AEX-N-Kenzo/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="7.x" />
+  <!-- Update Vendor Apps -->
+  <remove-project path="vendor/aosp" name="platform_vendor_aosp" remote="ex" />
+  <project path="vendor/aosp" name="AEX-N-Kenzo/platform_vendor_aosp" remote="github" revision="7.x" />
   <!-- Update security patches -->
   <remove-project path="system/bt" name="platform_system_bt" groups="pdk" remote="ex" />
   <project path="system/bt" name="AEX-N-Kenzo/platform_system_bt" groups="pdk" remote="github" revision="7.x"    />
