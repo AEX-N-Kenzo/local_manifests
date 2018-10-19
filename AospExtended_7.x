@@ -99,6 +99,8 @@
   <project path="libcore" name="AEX-N-Kenzo/platform_libcore" groups="pdk" remote="github" revision="7.x" />
   <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
   <project path="external/libxml2" name="AEX-N-Kenzo/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="cm-14.1" />
+  <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
+  <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="github" revision="cm-14.1" />
 
       <!-- Use LineageOS's -->
 <!--
@@ -107,6 +109,8 @@
 -->
   <remove-project path="external/curl" name="platform/external/curl" />
   <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github" revision="cm-14.1" />
+  <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
+  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" revision="refs/tags/android-8.1.0_r48" />
 
   <remove-project name="platform_build" path="build" groups="pdk,tradefed" remote="ex" />
   <project path="build" name="AEX-N-Kenzo/platform_build" groups="pdk,tradefed" remote="github" revision="7.x" >
