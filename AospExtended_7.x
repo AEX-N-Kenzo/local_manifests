@@ -74,20 +74,14 @@
   <project path="frameworks/av" name="AEX-N-Kenzo/platform_frameworks_av" groups="pdk" remote="github" revision="7.x" />
   <remove-project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="ex" />
   <project path="frameworks/opt/telephony" name="AEX-N-Kenzo/platform_frameworks_opt_telephony" groups="pdk" remote="github" revision="7.x" />
-  <remove-project path="external/libhevc" name="LineageOS/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
-  <project path="external/libhevc" name="AEX-N-Kenzo/android_external_libhevc" groups="pdk-fs" remote="github" revision="cm-14.1" />
   <remove-project path="external/libmpeg2" name="LineageOS/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/libmpeg2" name="AEX-N-Kenzo/android_external_libmpeg2" groups="pdk" remote="github" revision="cm-14.1" />
-  <remove-project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="external/sonivox" name="AEX-N-Kenzo/android_external_sonivox" groups="pdk" remote="github" revision="cm-14.1" />
   <remove-project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ex" />
   <project path="frameworks/native" name="AEX-N-Kenzo/platform_frameworks_native" groups="pdk" remote="github" revision="7.x" />
   <remove-project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bouncycastle" name="AEX-N-Kenzo/android_external_bouncycastle" groups="pdk" remote="github" revision="cm-14.1" />
   <remove-project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="ex" />
   <project path="packages/apps/Bluetooth" name="AEX-N-Kenzo/platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
-  <remove-project path="external/e2fsprogs" name="lineageos/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
-  <project path="external/e2fsprogs" name="AEX-N-Kenzo/android_external_e2fsprogs" remote="github" revision="cm-14.1" groups="pdk" />
   <remove-project path="system/vold" name="platform_system_vold" groups="pdk" remote="aosp-jf" />
   <project path="system/vold" name="AEX-N-Kenzo/platform_system_vold" groups="pdk" remote="github" revision="aosp-7.1.2" />
   <remove-project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ex"  />
@@ -100,16 +94,10 @@
   <project path="packages/providers/DownloadProvider" name="AEX-N-Kenzo/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.x" />
   <remove-project path="libcore" name="platform_libcore" groups="pdk"  remote="ex"  />
   <project path="libcore" name="AEX-N-Kenzo/platform_libcore" groups="pdk" remote="github" revision="7.x" />
-  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/libxml2" name="AEX-N-Kenzo/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="cm-14.1" />
   <remove-project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-libpac" name="LineageOS/android_external_chromium-libpac" groups="pdk" remote="github" revision="cm-14.1" />
 
       <!-- Use LineageOS's -->
-<!--
-  <remove-project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
-  <project path="external/libavc" name="AEX-N-Kenzo/android_external_libavc" groups="pdk" remote="github" revision="cm-14.1" />
--->
   <remove-project path="external/curl" name="platform/external/curl" />
   <project path="external/curl" name="LineageOS/android_external_curl" groups="pdk" remote="github" revision="cm-14.1" />
   <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
